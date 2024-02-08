@@ -533,25 +533,25 @@
     }
   }
   
-  /* ------------------------------------- */
+  -------------------------------------
   /* internship section here  */
   /* ------------------------------------- */
   
   #internships {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
+   display: flex;
+     flex-wrap: wrap; 
+     max-width: 100%;
   }
   
   .intern-item {
-    margin-left: 100px;
-    width: calc(53.33% - 10px); /* Adjust the width according to your design */
-    margin-bottom: 10px; /* Adjust margin as needed */
+    margin-left: 150px;
+    width: 53.33%;
+    margin-bottom: 30px; /* Adjust margin as needed */
     box-sizing: border-box;
-  }
-  .ih{
-     margin-left: 460px;
-  }
+   
+   }  
+  
+  
   .grey b{
     margin-left: 20px;
   }
@@ -625,9 +625,9 @@
     text-decoration: none;
     padding: 2rem var(--gutter-small);
     border-radius: 20px;
-    font-size: 700;
+    font-size: 900;
     float: center;
-    margin-left: 410px;
+    margin-left: 1010px;
 
   }
   section#internee_reviews {
